@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppBarCherepanov</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_note_book">Записная книжка</string>
+    <string name="menu_back_to_main">Вернуться на главную</string>
+    <string name="toast_open_note">Открыть записную книжку</string>
+    <string name="toast">Сохранено</string>
+</resources>
