@@ -29,10 +29,25 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         Intent noteActivityIntent = new Intent(MainActivity.this, NoteActivity.class);
+        Intent settingsActivityIntent = new Intent(MainActivity.this, AddressSettingsActivity.class);
+        Intent calendarActivityIntent = new Intent(MainActivity.this, CalendarActivity.class);
+
         int id = item.getItemId();
 
-        if (id == R.id.action_open_notes) {
-            startActivity(noteActivityIntent);
+        switch (id) {
+            case (R.id.action_open_notes) :
+                startActivity(noteActivityIntent);
+                break;
+
+            case (R.id.action_settings) :
+                startActivity(settingsActivityIntent);
+                break;
+
+            case (R.id.action_open_calendar) :
+                startActivity(calendarActivityIntent);
+                break;
+            default:
+                break;
         }
 
         return super.onOptionsItemSelected(item);

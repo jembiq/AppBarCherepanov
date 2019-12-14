@@ -1,8 +1,40 @@
 <resources>
     <string name="app_name">AppBarCherepanov</string>
+
+    <!-- MainActivity -->
     <string name="menu_settings">Настройки</string>
     <string name="menu_note_book">Записная книжка</string>
-    <string name="menu_back_to_main">Вернуться на главную</string>
-    <string name="toast_open_note">Открыть записную книжку</string>
+    <string name="menu_calendar">Календарь</string>
     <string name="toast">Сохранено</string>
+    <string name="save_btn">Сохранить</string>
+
+    <!-- AddressSettingsActivity -->
+    <string name="showBtn">Показать адрес</string>
+
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+
+    <!-- CalendarActivity -->
+    <string name="start_btn">Дата-время старта задачи</string>
+    <string name="end_btn">Дата-время окончания задачи</string>
+    <string name="OK_btn">OK</string>
+    <string name="error">Error: wrong date</string>
 </resources>
